@@ -737,12 +737,27 @@ ul {
 	width: calc(100% / 4);
 	margin: 3% 0;
 }
-.about-us .stats > div > i {
+.about-us .stats > div > .hex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 25px;
+	height: 25px;
+	z-index: 0;
+}
+.about-us .stats > div > .hex::before {
+	content: "\002B22";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -53%);
+	font-size: 65px;
+	z-index: -1;
+}
+.about-us .stats > div > .hex > i {
 	color: #ffffff;
-	background-color: #1f2021;
-	padding: 12px;
 	font-size: 18px;
-	border-radius: 100%;
 }
 .about-us .stats > div .stat-num {
 	color: #ffffff;
