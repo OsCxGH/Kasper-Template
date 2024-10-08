@@ -241,7 +241,7 @@ ul {
 /* Landing Styling Start */
 .landing {
 	position: relative;
-	background-image: url(../images/landing.jpg);
+	background-image: url(../assets/landing.jpg);
 	background-color: black;
 	background-size: cover;
 	height: 100vh;
@@ -395,7 +395,7 @@ ul {
 	line-height: 1.6;
 }
 .services .design-features {
-	background-image: url(../images/design-features.jpg);
+	background-image: url(../assets/design-features.jpg);
 	background-color: #1f2021;
 	position: relative;
 	margin-top: 75px;
